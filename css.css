@@ -1,0 +1,79 @@
+body {
+  background-image: url("images/slika4.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style: none;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333030;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #268b2e;
+}
+
+li {
+  float: left;
+  font-weight: bolder;
+  font-size: 40px;
+  font-style: italic;
+}
+li a {
+  display: block;
+  color: #268b2e;
+  text-align: center;
+  padding: 24px 33px;
+  text-decoration: none;
+}
+:hover
+ li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+    color: #273628;
+    font-size: 30px;
+}
+.active:hover {
+    background-color: #111;
+}
+.test{
+    font-size: 40px;
+    color:#268b2e;
+    text-align: center;
+    font-weight: bolder;
+}
+form{
+    background:#268b2e;
+    padding:20px;
+    letter-spacing:2px;
+    width:500px;
+    margin: 30px auto;
+    
+}
+form input{
+    margin:10px;
+}
+table{
+    border:1px solid rgb(0, 55, 128);
+    background:#268b2e;
+    padding:5px;
+}
+table td{
+    padding:4px;
+    text-align:center;
+    border:1px solid black;
+}
+table{
+    margin: 0 auto;
+}
+.naslov{
+    font:Arial;
+    text-align: center;
+    font-size: 60px;
+    color:#268b2e;
+    font-weight: bold;
+}

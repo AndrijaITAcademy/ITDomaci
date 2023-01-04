@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andrija's company</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+
+<body class="index">
+<ul>
+    <li>
+        <a href="index.html">Pocetna</a>
+    </li>
+    <li>
+        <a href="test.html">Test</a>
+    </li>
+    <li>
+        <a href="aktivnosti.html">Aktivnosti</a>
+    </li>
+    <li>
+        <a href="veze.html">Veze</a>
+    </li>
+    <li>
+        <a href="usluge.html">Usluge</a>
+    </li>
+    <li>
+        <a href="demo.html">Demo</a>
+    </li>
+    <li>
+        <a href="okompaniji.html">O kompaniji</a>
+    </li>
+    <li style="float:right">
+        <a class="active" href="kontakt.html">Kontakt</a>
+    </li>
+</ul>
+
+
+
+
+<input type="button" id="btn" value="Objavi" onclick="prikaz()"> 
+</form>
+<div id="result"></div>
+<script type = "text/javascript">
+function prikaz() {
+        const randomColor = Math.floor(Math.random()*12345).toString(16);
+        document.p.style.color="#" + randomColor;
+
+}
+
+
+</script>
+
+<p class="naslov">
+    Upad Medicina
+</p>
+<br>
+<table>
+    <thead>
+        <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Broj poena</th>
+        <th>Prolaz</th>
+    </tr>
+    <tr>
+        <td>Andrija</td>
+        <td>Jovanovic</td>
+        <td>54</td>    
+        <td>Da</td>
+    </tr>
+  <tr>
+    <td>Nikola</td>
+    <td>Markovic</td>
+    <td>21</td>
+    <td>Ne</td>
+  </tr>
+  <tr>
+    <td>Ognjen</td>
+    <td>Jovanovic</td>
+    <td>35</td>
+    <td>Da</td>
+  </tr>
+  <br>
+
+  
+</body>
+</html>
+

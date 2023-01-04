@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>test</title>
+</head>
+<body>
+    <body class="index">
+        <ul>
+            <li>
+                <a href="index.html">Pocetna</a>
+            </li>
+            <li>
+                <a href="onama.html">Test</a>
+            </li>
+            <li>
+                <a href="aktivnosti.html">Aktivnosti</a>
+            </li>
+            <li>
+                <a href="veze.html">Veze</a>
+            </li>
+            <li>
+                <a href="usluge.html">Usluge</a>
+            </li>
+            <li>
+                <a href="demo.html">Demo</a>
+            </li>
+            <li>
+                <a href="okompaniji.html">O kompaniji</a>
+            </li>
+            <li style="float:right">
+                <a class="active" href="kontakt.html">Kontakt</a>
+            </li>
+        </ul>
+        <form action="">
+            Ime: <input type = "text" name = "ime" /> </br>
+            Prezime: <input type = "text" name = "prezime"/> </br>
+            Broj poena: <input type = "number" name = "poeni"/> </br>
+            <input type="button" id="btn" value="Objavi" onclick="prikaz()"> 
+        </form>
+        <div id="result"></div>
+    <script type = "text/javascript">
+       function prikaz() {
+        const randomColor = Math.floor(Math.random()*12345).toString(16);
+        document.body.style.color="#" + randomColor;
+
+       }
+
+    </script>
+    
+
+
+</body>
+</html>
